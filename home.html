@@ -1,0 +1,237 @@
+<!--Author: Nguyen Hong Nhung-->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>learning Japanese</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
+
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="javaScrip/jquery.js"></script>
+    <script type="text/javascript" src="javaScrip/jquery-ui.js"></script>
+    <script type="text/javascript" src="javaScrip/jMenu.jquery.js"></script>
+    <script type="text/javascript" src="javaScrip/menu.js">
+
+    </script>
+</head>
+<body onload="time()">
+<div class="container">
+    <div id="clock"></div>
+    <div class="member-login">
+                <a href="#login-box" class="login-window button btn btn-primary">login</a>
+                <div id="login-box" class="login">
+                    <p class="login_title">Login</p>
+                    <a href="#" class="close"><img src="image/icon/Button-Close-icon.png" class="img-close" title="Close Window" alt="Close" /></a>
+                    <form method="post" class="login-content" action="#">
+                        <label class="username">
+                            <span>Tên hoặc email</span>
+                            <input id="username" name="username" value="" type="text" autocomplete="on" placeholder="Username">
+                        </label>
+                        <label class="password">
+                            <span>Mật khẩu</span>
+                            <input id="password" name="password" value="" type="password" placeholder="Password">
+                        </label>
+                        <button class="button submit-button" type="button">Đăng nhập</button>
+                        <p>
+                            <a class="forgot" href="#">Quên mật khẩu?</a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+    <div class="header">
+        <div class="slide">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="image/slide/1.jpg" alt="..." >
+                        <div class="carousel-caption">
+                            ...
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="image/slide/2.jpg" alt="...">
+                        <div class="carousel-caption">
+                            ...
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="image/slide/3.bmp" alt="...">
+                        <div class="carousel-caption">
+                            ...
+                        </div>
+                    </div>
+                    ...
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+        <div id="menu">
+                    <ul>
+                        <li><a id="home" href="#"><img src="image/icon/Ichat-icon.png" width="100%" alt=""/><span>&nbsp;&nbsp;ホーム</span></a></li>
+                        <li><a id="news" href="#"><img src="image/icon/Services-icon.png" width="100%" alt=""/><span>&nbsp;ニュース</span></a></li>
+                        <li><a id="setting" href="#"><img src="image/icon/Text-App-icon.png" width="100%" alt=""/><span>&nbsp;&nbsp;&nbsp;設定</span></a></li>
+
+                    </ul>
+        </div>
+        <div id="text">
+            <marquee scrollamount="5" direction="left" behavior="scroll"><p class="marquee"> はじめますて 私のページへようこそ</p></marquee>
+
+        </div>
+
+    </div>
+    <div class="clear"></div>
+    <!-- End header-->
+    <div class="content">
+         <div class="lesson">
+             <div class="lesson-item">
+                 <h2>レッスン 1</h2>
+                 <ul>
+                     <li><a href="#"><img src="image/background/Publisher-icon.png" width="100%" alt=""/><span>ユニット 1</span></a></li>
+                     <li><a href="#"><img src="image/background/Publisher-icon.png" width="100%" alt=""/><span>ユニット 2</span></a></li>
+                     <li><a href="#"><img src="image/background/Publisher-icon.png" width="100%" alt=""/><span>ユニット 3</span></a></li>
+                     <li><a href="#"><img src="image/background/Publisher-icon.png" width="100%" alt=""/><span>ユニット 4</span></a></li>
+
+                     <li><a href="#"><img src="image/background/CD-drive-icon.png" width="100%" alt=""/><span>&nbsp;&nbsp;&nbsp;テスト </span></a></li>
+
+
+                 </ul>
+                 <div class="clear"></div>
+             </div>
+             <div class="lesson-item">
+                 <h2>レッスン 2</h2>
+                 <ul>
+                     <li><a href="#"><img src="image/background/Publisher-icon.png" width="100%" alt=""/><span>ユニット 1</span></a></li>
+                     <li><a href="#"><img src="image/background/Publisher-icon.png" width="100%" alt=""/><span>ユニット 2</span></a></li>
+                     <li><a href="#"><img src="image/background/Publisher-icon.png" width="100%" alt=""/><span>ユニット 3</span></a></li>
+                     <li><a href="#"><img src="image/background/Publisher-icon.png" width="100%" alt=""/><span>ユニット 4</span></a></li>
+
+                     <li><a href="#"><img src="image/background/CD-drive-icon.png" width="100%" alt=""/><span>&nbsp;&nbsp;&nbsp;テスト </span></a></li>
+
+
+                 </ul>
+                 <div class="clear"></div>
+             </div>
+             <div class="lesson-item">
+                 <h2>レッスン 3</h2>
+                 <ul>
+                     <li><a href="#"><img src="image/background/Publisher-icon.png" width="100%" alt=""/><span>ユニット 1</span></a></li>
+                     <li><a href="#"><img src="image/background/Publisher-icon.png" width="100%" alt=""/><span>ユニット 2</span></a></li>
+                     <li><a href="#"><img src="image/background/Publisher-icon.png" width="100%" alt=""/><span>ユニット 3</span></a></li>
+                     <li><a href="#"><img src="image/background/Publisher-icon.png" width="100%" alt=""/><span>ユニット 4</span></a></li>
+
+                     <li><a href="#"><img src="image/background/CD-drive-icon.png" width="100%" alt=""/><span>&nbsp;&nbsp;&nbsp;テスト </span></a></li>
+
+
+                 </ul>
+                 <div class="clear"></div>
+             </div>
+
+
+
+         </div>
+        <div class="detail-lesson">
+            <div class="detail lesson-item">
+                <ul>
+                    <li>
+                        <a class="new-word" href="#"><img src="image/lesson1/Contact-icon.png" width="100%" alt=""/><span></span>New word</a>
+                        <div class="new-word-detail none">
+                            <ul>
+                                <li><a href="#"><img src="image/icon/home-icon.png" alt=""/><span>1</span></a></li>
+                                <li><a href="#"><img src="image/icon/home-icon.png" alt=""/><span> 2</span></a></li>
+                                <li><a href="#"><img src="image/icon/home-icon.png" alt=""/><span> 3</span></a></li>
+                                <li><a href="#"><img src="image/icon/home-icon.png" alt=""/><span> 4</span></a></li>
+                                <li><a href="#"><img src="image/icon/home-icon.png" alt=""/><span> 5</span></a></li>
+                            </ul>
+                            <div class="clear"></div>
+                        </div>
+                    </li>
+                    <li><a href="#"><img src="image/icon/home-icon.png" alt=""/><span>lesson 2</span></a></li>
+                    <li><a href="#"><img src="image/icon/home-icon.png" alt=""/><span>Lesson 3</span></a></li>
+                    <li><a href="#"><img src="image/icon/home-icon.png" alt=""/><span>Lesson 4</span></a></li>
+                    <li><a href="#"><img src="image/icon/home-icon.png" alt=""/><span>Lesson 5</span></a></li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <!--NEW-DETAIL-->
+        <div class="news-detail">
+            <div class="news-detail-item">
+                <ul>
+                    <li><a href="#"><img src="image/new/tradao.jpg" alt="" height="70px" width="70px"/><span>Trà đạo</span></a></li>
+                    <li><a href="#"><img src="image/new/hoanhdao.jpg" alt="" height="70px" width="70px"/><span>Hoa anh đào</span></a></li>
+                    <li><a href="#"><img src="image/new/sumo.jpg" alt="" height="70px" width="70px"/><span>Võ sĩ Sumo</span></a></li>
+                    <li><a href="#"><img src="image/new/amthuc.jpg" alt="" height="70px" width="70px"/><span>Ẩm thực</span></a></li>
+
+                </ul>
+                <div class="clear"></div>
+            </div>
+
+
+        </div>
+        <div class="clear"></div>
+    </div>
+ <div class="clear"></div>
+
+<!-- End content-->
+    <div class="footer">
+        <div class="photoShow" id="bird">
+            <div class="current">
+                <a href="">
+                    <img src="image/footer/Geisha-Japan-blue-icon.png" alt=""></a>
+            </div>
+            <div>
+                <a href="">
+                    <img src="image/footer/Geisha-Japan-green-icon.png" alt=""></a></div>
+            <div>
+                <a href="">
+                    <img src="image/footer/Geisha-Japan-pink-icon.png" alt=""></a></div>
+
+        </div>
+
+        <div class="middle-footer">
+            <div>
+                <a href="">
+                    <img src="image/footer/japan-fuji-icon.png" alt=""></a></div>
+
+        </div>
+        <div class="photoShow" id="bird1">
+            <div class="current">
+                <a href="">
+                    <img src="image/footer/Geisha-Japan-green-icon.png" alt=""></a></div>
+
+
+            <div>
+                <a href="">
+                    <img src="image/footer/Geisha-Japan-blue-icon.png" alt=""></a></div>
+            <div>
+                <a href="">
+                    <img src="image/footer/Geisha-Japan-pink-icon.png" alt=""></a></div>
+
+        </div>
+        <div class="clear"></div>
+    </div>
+    <!-- End footer-->
+</div>
+</body>
+</html>
